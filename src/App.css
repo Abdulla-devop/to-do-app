@@ -1,0 +1,23 @@
+.head{
+  font-size:x-large;
+  color: rgb(62, 197, 193);
+}
+.bt{
+  background-color: rgb(9, 152, 165);
+  width:150px;
+  border-radius: 5px;
+  color:white;
+}
+.add{
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center ;
+}
+.filter{
+  display: flex;
+  justify-content:space-between;
+  text-decoration:double;
+  font-weight: 200;
+  color: black;
+}
