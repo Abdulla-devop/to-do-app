@@ -7,7 +7,7 @@ import ToDos from './Todos.jsx'
 import TopBar from './topbar'
 import EditTodo from './EditTodo'
 // todo data
-function App() {
+function App(){
   const data =[
     {
        TodoName:"office task 1",
