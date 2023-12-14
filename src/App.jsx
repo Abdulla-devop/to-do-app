@@ -3,7 +3,7 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Cart from './Carts'
-import ToDos from './Todos.jsx'
+import Todos from './Todos.jsx'
 import TopBar from './topbar'
 import EditTodo from './EditTodo'
 // todo data
@@ -35,7 +35,7 @@ function App(){
     <>
     {showForm === true?(<TopBar studentdata={studentdata} setStudentdata={setStudentdata}/>):
      (<EditTodo studentdata={studentdata} setStudentdata={setStudentdata} showForm={showForm} setShowForm={setShowForm} editId={editId} /> )}
-<ToDos studentdata={studentdata} setFilterStudentdata={setFilterStudentdata}/>
+<Todos studentdata={studentdata} setFilterStudentdata={setFilterStudentdata}/>
 <Cart studentdata={filterstudentdata ? filterstudentdata: studentdata} setStudentdata ={setStudentdata}
 showForm={showForm} setShowForm={setShowForm} setEditId={setEditId} editId={editId}/>
 </>
