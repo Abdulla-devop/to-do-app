@@ -3,9 +3,9 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Cart from './Carts'
-import Todos from './Todos.jsx'
 import TopBar from './topbar'
 import EditTodo from './EditTodo'
+import Todos from './Todo.jsx'
 // todo data
 function App(){
   const data =[
