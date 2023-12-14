@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 /* eslint-disable react/prop-types */
-export default function ToDos({ studentdata, setFilterStudentdata }) {
+export default function Todos({ studentdata, setFilterStudentdata }) {
   const [selectedFilter, setSelectedFilter] = useState('All');
 
   const handleFilterChange = (filter) => {

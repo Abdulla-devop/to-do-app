@@ -3,7 +3,7 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Cart from './Carts'
-import ToDos from './Todos'
+import ToDos from './Todos.jsx'
 import TopBar from './topbar'
 import EditTodo from './EditTodo'
 // todo data

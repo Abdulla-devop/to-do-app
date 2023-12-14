@@ -1,6 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This  App will have task information with status named TODO it has a feature of Edit,Delete & Add options. we can filter the completed and not completed task also.
 
 Currently, two official plugins are available:
 
